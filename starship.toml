@@ -14,12 +14,12 @@ tag_symbol = " "
 
 # git status
 [git_status]
-conflicted = ""
+conflicted = " "
 ahead = "⇡${count}"
 diverged = "⇕⇡${ahead_count}⇣${behind_count}"
 behind = "⇣${count}"
 up_to_date = " "
-stashed = ""
+stashed = " "
 modified = "📝"
 staged = '[ ++$count](green)'
 renamed = "👅"
