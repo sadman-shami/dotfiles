@@ -3,7 +3,7 @@
 _This setup is only for the powershell user_
 
 - Install Nerd Font From [nerdfonts.com](https://www.nerdfonts.com/font-downloads).
-- Run the following code.
+- Run the following commands.
 
 ```sh
 # install git
