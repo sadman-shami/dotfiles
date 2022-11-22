@@ -1,0 +1,26 @@
+# nodejs
+[nodejs]
+format = "via [⬢ $version](bold green) "
+
+# git branch
+[git_branch]
+symbol = "[ ](bold green)"
+format = "on [$symbol[$branch ](bold green)(:$remote_branch)]($style)"
+
+
+# git commit
+[git_commit]
+tag_symbol = " "
+
+# git status
+[git_status]
+conflicted = ""
+ahead = "⇡${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+behind = "⇣${count}"
+up_to_date = ""
+stashed = ""
+modified = "📝"
+staged = '[ ++$count](green)'
+renamed = "👅"
+deleted = "  "
