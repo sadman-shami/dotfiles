@@ -16,7 +16,7 @@ winget install --id Starship.Starship
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 ```
 
-### To use Microsoft Powershell Profile run the following command in Adminstrator mode
+__To use Microsoft Powershell Profile run the following command in Adminstrator mode__
 
 ```sh
 # Adminstrator mode required
