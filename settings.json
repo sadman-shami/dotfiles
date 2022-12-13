@@ -1,0 +1,81 @@
+{
+  // editor
+  "editor.fontSize": 18,
+
+  // font spacific for operator mono
+  // "editor.fontFamily": "'Operator Mono SSm Lig'", // operator mono font -> customized font family
+  // "editor.fontWeight": 300,
+
+  // font Cascadia Code
+  "editor.fontFamily": "'Cascadia Code'",
+  "editor.fontWeight": 400,
+
+  // font legatures
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum', 'calt'",
+
+  "editor.lineHeight": 1.4,
+  "editor.minimap.enabled": false, // disable minimap
+  "editor.tabSize": 2, // default tab size
+  "editor.wordWrap": "on",
+  "editor.scrollbar.horizontal": "hidden",
+
+  // italic comment config
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+
+  // cursor related config
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "editor.mouseWheelZoom": true,
+  "output.smartScroll.enabled": true,
+  "editor.renderWhitespace": "all",
+  "files.eol": "\n",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // prettier required
+  "editor.formatOnSave": true,
+
+  // file save and delete config
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontFamily": "CodeNewRoman Nerd Font, Operator Mono SSm Lig",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.lineHeight": 1,
+
+  // git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "window.commandCenter": false,
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.layoutControl.enabled": false,
+  "window.zoomLevel": 1,
+  "editor.accessibilitySupport": "off"
+}
