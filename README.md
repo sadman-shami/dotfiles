@@ -20,7 +20,7 @@ __To use Microsoft Powershell Profile run the following command in Adminstrator 
 
 ```sh
 # Adminstrator mode required
-Set-ExecutaionPolicy Unrestricted
+Set-ExecutionPolicy Unrestricted
 ```
 
 ## Screenshot
