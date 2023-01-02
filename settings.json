@@ -3,12 +3,8 @@
   "editor.fontSize": 18,
 
   // font spacific for operator mono
-  // "editor.fontFamily": "'Operator Mono SSm Lig'", // operator mono font -> customized font family
-  // "editor.fontWeight": 300,
-
-  // font Cascadia Code
-  "editor.fontFamily": "'Cascadia Code'",
-  "editor.fontWeight": 400,
+  "editor.fontFamily": "'Operator Mono SSm Lig'", // operator mono font -> customized font family
+  "editor.fontWeight": 300,
 
   // font legatures
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum', 'calt'",
@@ -23,7 +19,7 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["comment"],
+        "scope": ["comment", "keyword"],
         "settings": {
           "fontStyle": "italic"
         }
@@ -31,20 +27,32 @@
     ]
   },
 
-  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
-  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+  "workbench.colorTheme": "Andromeda",
+  "workbench.iconTheme": "vscode-icons",
 
   // cursor related config
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
   "editor.mouseWheelZoom": true,
   "output.smartScroll.enabled": true,
-  "editor.renderWhitespace": "all",
   "files.eol": "\n",
 
   // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode", // prettier required
   "editor.formatOnSave": true,
+
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
 
   // file save and delete config
   "editor.codeActionsOnSave": {
@@ -75,7 +83,12 @@
   "window.commandCenter": false,
   "git.confirmSync": false,
   "explorer.confirmDragAndDrop": false,
+
   "workbench.layoutControl.enabled": false,
   "window.zoomLevel": 1,
-  "editor.accessibilitySupport": "off"
+  "editor.accessibilitySupport": "off",
+
+  "files.exclude": {
+    "**/.git": false
+  }
 }
