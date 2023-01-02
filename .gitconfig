@@ -1,0 +1,6 @@
+[user]
+	name = Sadman Shami
+	email = srahyme413@gmail.com
+[core]
+	editor = code --wait
+	autocrlf = input
